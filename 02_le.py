@@ -6,7 +6,7 @@ import time, random
 
 K=10
 NR = 200
-NW = 2
+NW = 3
 
 class Monitor():
     def __init__(self):
