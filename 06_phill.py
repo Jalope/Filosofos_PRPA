@@ -14,12 +14,13 @@ def delay(n):
 
 def philosopher_task(num:int, table: Table):
     table.set_current_phil(num)
-    while True:
+    for i in range(K):
         print (f"Philosofer {num} thinking")
+        delay(4)
         print (f"Philosofer {num} wants to eat")
-        table.wants_eat(num)
+        table.wants_eat()
         print (f"Philosofer {num} eating")
-        table.wants_think(num)
+        table.wants_think()
         print (f"Philosofer {num} stops eating")
 
 def main():
