@@ -3,7 +3,7 @@ from multiprocessing import Condition, Semaphore, Lock
 from multiprocessing import Array, Manager, Value
 import time
 import random
-from monitor import Table, CheatMonitor
+from monitor_07 import Table, CheatMonitor
 
 NPHIL = 5
 K = 100

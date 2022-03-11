@@ -1,4 +1,4 @@
-from monitor import AnticheatTable as Table, CheatMonitor
+from monitor_08 import AnticheatTable as Table, CheatMonitor
 from multiprocessing import Process, Manager
 import time
 import random
